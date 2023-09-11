@@ -11,6 +11,7 @@ function Navbar(){
         width: '100%',
         backgroundColor: 'white',
         zIndex: 999, // Pour s'assurer que la navbar est au-dessus du contenu
+        boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.2)',
       };
     
       const ulStyle = {
@@ -35,7 +36,16 @@ function Navbar(){
               <Link to="/">Accueil</Link>
             </li>
             <li>
+                <Link to="/our-work">Nos réalisations</Link>
+            </li>
+            <li>
+                <Link to="prices-and-quote">Tarifs et devis</Link>
+            </li>
+            <li>
               <Link to="/about">À propos</Link>
+            </li>
+            <li>
+                <Link to="/contact">Nous contacter</Link>
             </li>
           </ul>
         </nav>
