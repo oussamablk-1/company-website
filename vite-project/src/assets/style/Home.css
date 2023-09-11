@@ -1,0 +1,35 @@
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* Cinq colonnes égales pour occuper toute la largeur */
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 4px;
+    grid-row-gap: 0px;
+  }
+  
+  
+  .div1 {
+    grid-area: 2 / 1 / 4 / 4;
+    background-color: white; /* Fond blanc */
+    border-radius: 10px; /* Bordures arrondies */
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.2), 4px 0px 4px rgba(0, 0, 0, 0.2); /* Ombre en haut et à droite */
+  }
+  
+  .div2 {
+    grid-area: 2 / 4 / 4 / 6;
+    background-image: url("/computer.png");
+    background-size: cover; /* L'image s'ajuste pour couvrir toute la div */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-position: center center; /* Centre l'image horizontalement et verticalement */
+  }
+  
+  
+  .div3 {
+    grid-area: 4 / 1 / 6 / 3;
+    background-color: red;
+  }
+  
+  .div4 {
+    grid-area: 4 / 3 / 6 / 6;
+    background-color: yellow;
+  }
+  
