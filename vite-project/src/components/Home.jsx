@@ -31,6 +31,7 @@ function Home() {
             <h2>Argument 1</h2>
             <big>Chiffre</big>
             <p>explication</p>
+            <span className="left-container-arrow"></span>
           </div>
         </div>
 
@@ -40,6 +41,7 @@ function Home() {
             <h2>Argument 2</h2>
             <big>Chiffre</big>
             <p>explication</p>
+            <span className="right-container-arrow"></span>
           </div>
         </div>
 
@@ -49,6 +51,7 @@ function Home() {
             <h2>Argument 3</h2>
             <big>Chiffre</big>
             <p>explication</p>
+            <span className="left-container-arrow"></span>
           </div>
         </div>
 
@@ -58,6 +61,27 @@ function Home() {
             <h2>Argument 4</h2>
             <big>Chiffre</big>
             <p>explication</p>
+            <span className="right-container-arrow"></span>
+          </div>
+        </div>
+
+        <div className="container left-container">
+        <img src={cercle} alt="cercle" />
+          <div className="text-box">
+            <h2>Argument 3</h2>
+            <big>Chiffre</big>
+            <p>explication</p>
+            <span className="left-container-arrow"></span>
+          </div>
+        </div>
+
+        <div className="container right-container">
+        <img src={cercle} alt="cercle" />
+          <div className="text-box">
+            <h2>Argument 4</h2>
+            <big>Chiffre</big>
+            <p>explication</p>
+            <span className="right-container-arrow"></span>
           </div>
         </div>
 
